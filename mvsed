@@ -1,2 +1,0 @@
-#!/bin/sh
-for f in $1; do mv $f `echo $f|sed -e "s/$2/$3/g"`; done
