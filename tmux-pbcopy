@@ -1,0 +1,5 @@
+#! /bin/sh
+tmux save-buffer - | pbcopy
+
+# for message
+tmux display-message "Copied."
